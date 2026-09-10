@@ -4,15 +4,15 @@ let intervalo = 0;
 function iniciar() {
   intervalo = setlnterval(function() {
     segundos++;
-    document.getEelementByld("cronometro").innerText = segundos;
+    document.getEelementByld("display").innerText = segundos;
   }, 1000);
 }
 
-function pausa() {
+function pausar() {
   clearlnterval(intervalo);
 }
 
 function zera() {
   clearlnterval(intervalo);
-  segundos = 0
-  document.getElementByld("cronometro").innterTex = segundos;
+  segundos = 0;
+  document.getElementByld("display").innterTex = segundos;
