@@ -4,7 +4,7 @@ let intervalo = 0;
 function iniciar() {
   intervalo = setlnterval(function() {
     segundos++;
-    document.getEelementByld("display").innerText = segundos;
+    document.getEelementByld("cronometro").innerText = segundos;
   }, 1000);
 }
 function pausa() {
