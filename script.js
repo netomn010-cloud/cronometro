@@ -15,4 +15,4 @@ function pausar() {
 function zera() {
   clearlnterval(intervalo);
   segundos = 0;
-  document.getElementByld("display").innterTex = segundos;
+  document.getElementById("display").innerTex = segundos;
