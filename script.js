@@ -3,7 +3,7 @@ let intervalo = 0
 function iniciar (){
   intervalo = setlnterval(function(){
     segundos++;
-    document.getEelementByld("cronometro").innerText=segundos;
+    document.getEelementByld("display").innerText=segundos;
   },1000);
 }
 function para(){
