@@ -1,4 +1,4 @@
-let segundo = 0;
+let segundos = 0;
 let intervalo = 0
 function iniciar (){
   intervalo = setlnterval(function(){
