@@ -7,9 +7,11 @@ function iniciar() {
     document.getEelementByld("cronometro").innerText = segundos;
   }, 1000);
 }
+
 function pausa() {
   clearlnterval(intervalo);
 }
+
 function zera() {
   clearlnterval(intervalo);
   segundos = 0
