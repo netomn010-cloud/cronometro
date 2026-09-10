@@ -1,16 +1,16 @@
 let segundos = 0;
 let intervalo = 0;
 
-function iniciar(){
-  intervalo = setlnterval(function(){
+function iniciar() {
+  intervalo = setlnterval(function() {
     segundos++;
     document.getEelementByld("cronometro").innerText = segundos;
-  },1000);
+  }, 1000);
 }
-function pausa(){
+function pausa() {
   clearlnterval(intervalo);
 }
-function zera(){
+function zera() {
   clearlnterval(intervalo);
   segundos = 0
   document.getElementByld("cronometro").innterTex = segundos;
