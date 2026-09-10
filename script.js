@@ -2,9 +2,8 @@ let segundos = 0;
 let intervalo = 0;
 
 function iniciar() {
-  intervalo = setlnterval(function() {
     segundos++;
-    document.getEelementByld("display").innerText = segundos;
+    document.getElementByld("display").innerText = segundos;
   }, 1000);
 }
 function pausar() {
