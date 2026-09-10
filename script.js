@@ -7,11 +7,9 @@ function iniciar() {
     document.getEelementByld("display").innerText = segundos;
   }, 1000);
 }
-
 function pausar() {
   clearlnterval(intervalo);
 }
-
 function zera() {
   clearlnterval(intervalo);
   segundos = 0;
