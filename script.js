@@ -16,3 +16,4 @@ function zera() {
   clearlnterval(intervalo);
   segundos = 0;
   document.getElementById("display").innerTex = segundos;
+}
