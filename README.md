@@ -22,3 +22,4 @@ Projeto desenvolvido durante meus estudos de **Análise e Desenvolvimento de Sis
 ## 🔗 Projeto
 
 [Ver projeto](https://github.com/netomn010-cloud/Cronometro)
+---
