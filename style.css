@@ -1,43 +1,76 @@
 body {
-background-color: #222;
+margin: 0;
+background: linear-gradient(135deg, #020817, #0b1f3a);
 color: white;
 text-align: center;
 font-family: Arial, sans-serif;
+min-height: 100vh;
 }
 
 .cronometro {
-margin-top: 100px;
+width: 90%;
+max-width: 900px;
+margin: 70px auto;
 }
 
 h1 {
-font-size: 40px;
+font-size: 55px;
+margin: 0;
+letter-spacing: 3px;
+text-shadow: 0 0 15px #00bfff;
+}
+
+.subtitulo {
+color: #00bfff;
+font-size: 24px;
+letter-spacing: 8px;
+margin-top: 10px;
+text-shadow: 0 0 10px #00bfff;
 }
 
 #display {
-font-size: 60px;
-margin: 30px;
+margin: 60px auto 40px;
+padding: 35px 20px;
+font-size: 80px;
+font-family: "Courier New", monospace;
+font-weight: bold;
+letter-spacing: 8px;
+background: rgba(0, 10, 25, 0.8);
+border: 3px solid #00bfff;
+border-radius: 25px;
+box-shadow:
+0 0 15px #00bfff,
+inset 0 0 25px rgba(0, 191, 255, 0.2);
 }
 
 button {
-padding: 15px 25px;
-margin: 5px;
-border: none;
-border-radius: 10px;
-font-size: 18px;
+padding: 18px 35px;
+margin: 10px;
+border: 2px solid transparent;
+border-radius: 15px;
+color: white;
+font-size: 22px;
+font-weight: bold;
 cursor: pointer;
+transition: 0.3s;
 }
 
 button:nth-of-type(1) {
-background-color: green;
-color: white;
+background: #00c853;
+box-shadow: 0 0 15px #00c853;
 }
 
 button:nth-of-type(2) {
-background-color: red;
-color: white;
+background: #ff1744;
+box-shadow: 0 0 15px #ff1744;
 }
 
 button:nth-of-type(3) {
-background-color: blue;
-color: white;
+background: #008cff;
+box-shadow: 0 0 15px #008cff;
+}
+
+button:hover {
+transform: scale(1.08);
+filter: brightness(1.2);
 }
